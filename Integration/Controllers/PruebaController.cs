@@ -20,7 +20,7 @@ namespace Integration.Controllers
             /* try
             {*/
             //cadenas de construcción de conexión a servidor
-            string connStr = "Server=127.0.0.1;Database=integracion;Uid=root;Pwd=toor";
+            string connStr = "Server=10.48.13.154;Database=integracion;Uid=userInt;Pwd=userInt123456";
             MySqlConnection conn = new MySqlConnection(connStr);
             /*}
             catch (Exception errosql)
