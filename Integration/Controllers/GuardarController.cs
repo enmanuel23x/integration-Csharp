@@ -18,7 +18,7 @@ namespace Integration.Controllers
 
         public IEnumerable<Prueba> GetAllPruebas()
         {
-            string connStr = "Server=127.0.0.1;Database=integracion;Uid=root;Pwd=toor";
+            string connStr = "Server=10.48.13.154;Database=integracion;Uid=userInt;Pwd=userInt123456";
             MySqlConnection conn = new MySqlConnection(connStr);
             Pruebas[0] = new Prueba { Resultados = "Todo bien\n\n" };
             //}
